@@ -430,10 +430,8 @@ class DockerCLI:
         """Ejecuta la aplicación principal"""
         try:
             while True:
-                self.clear_screen()
                 self.show_header()
                 self.show_main_menu()
-
                 choice = input("Selecciona una opción: ").strip()
 
                 if choice == '1':
