@@ -6,3 +6,8 @@ jobs:
       steps:
         - name: Hola Mundo
           run: echo "Hola mundo"
+    second_job:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Hola mundo 2
+          run: echo "Hineill 2"
